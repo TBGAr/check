@@ -1,14 +1,14 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2019-09-16T22:45:09
+# Project created by QtCreator 2019-09-16T23:51:39
 #
 #-------------------------------------------------
 
-QT       += core gui network
+QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = check
+TARGET = Schach
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -25,14 +25,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp \
-    game.cpp
+        mainwindow.cpp
 
 HEADERS += \
-        mainwindow.h \
-    game.h
+        mainwindow.h
 
 FORMS += \
         mainwindow.ui
-
-CONFIG   += c++11
